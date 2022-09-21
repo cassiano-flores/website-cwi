@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ededed;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+ul, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-container-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-container-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.pessoas-container {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.pessoas-container-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #515070;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.pessoas-container-bottom {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.image-background {
+    display: flex;
+    flex-direction: column;
+    background: #515070;
+    margin-right: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.image-background .text {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    right: 18px;
+    z-index: -1;
+    color: #ffffff;
+}
+
+.image-background .text .title {
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.image-background .text .body {
+    font-size: 13px;
+}
+
+.pessoas-container-bottom img:hover {
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.atributos-container {
+    display: flex;
+}
+
+.atributo {
+    display: flex;
+    flex-direction: column;
+}
+
+.atributo-top {
+    display: flex;
+    color: #515070;
+    margin: 80px 40px 40px 40px;
+}
+
+.atributo-top-text {
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+.atributo-bottom {
+    color: #898989;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
